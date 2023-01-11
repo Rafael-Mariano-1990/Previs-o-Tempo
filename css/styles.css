@@ -1,0 +1,56 @@
+* {
+    
+    margin: 0;
+    border-style: border-box;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+form {
+    text-align: center;
+    margin: 0 auto;
+    width: 500px;
+    margin-top: 30px;
+}
+
+body {
+    background-image: url(../imagem.jpg);
+}
+
+form {
+    border: 5px ridge #c0c0c0;
+    padding: 10px;
+    font-weight: bold;
+}
+
+input {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+button {
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 15px;
+    width: 100px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.output {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+img {
+    background-color: #c0c0c0;
+    margin-top: 5px;
+}
+
