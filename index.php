@@ -7,7 +7,7 @@ $erro = "";
             $erro = "Campo está vazio";
         }
         if ($_GET['city']) {
-            $url = "https://api.openweathermap.org/data/2.5/weather?q=".$_GET['city']."&lang=pt_br&units=metric&appid="your_api_key"";
+            $url = "https://api.openweathermap.org/data/2.5/weather?q=".$_GET['city']."&lang=pt_br&units=metric&appid=9a858f9a14377526bbf919a15f9ca911";
             $apiData = curl_init($url);
             curl_setopt($apiData, CURLOPT_RETURNTRANSFER, true);
             curl_setopt($apiData,CURLOPT_SSL_VERIFYPEER, false);
